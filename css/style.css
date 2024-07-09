@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb
 .utkarshsite_videobackground
 {
   width: 100vw;
-  height: 145vh;
+  height: 170vh;
   object-fit: cover;
 }
 .utkarshvideo_backcolorarea
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb
 	position: absolute;
 	top: 0px;
 	width: 100%;
-  height: 145vh;
+  height: 170vh;
 	background-color: #151616bd;
 }
 .mainout_sectionutkarsh
@@ -61,7 +61,29 @@ body::-webkit-scrollbar-thumb
 }
 .utkarshdivison_outarea
 {
-	margin: 30px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+}
+.utkarshdivison_rightoutarea
+{
+  margin: 87px 0px 0px 0px;
+}
+.utkarsh_winnerdepartment
+{
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 0px;
+}
+.utkarshteam_pointtextdesign
+{
+  color: #ffcd00;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
 }
 .utkarshdepartment_headingtextdesign 
 {
@@ -130,7 +152,7 @@ body::-webkit-scrollbar-thumb
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  height: 280px;
+  height: 300px;
 }
 .utkarsh_cardfstructure::before
 {
@@ -177,7 +199,7 @@ body::-webkit-scrollbar-thumb
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  height: 280px;
+  height: 300px;
 }
 .utkarsh_cardfstructure1::before
 {
@@ -392,7 +414,7 @@ body::-webkit-scrollbar-thumb
 .utkarshtop_profilenametextdesign
 {
   color: #FFF;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   margin: 0px;
   font-family: "Merriweather", serif;
