@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb
 .utkarshsite_videobackground
 {
   width: 100vw;
-  height: 170vh;
+  height: 190vh;
   object-fit: cover;
 }
 .utkarshvideo_backcolorarea
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb
 	position: absolute;
 	top: 0px;
 	width: 100%;
-  height: 170vh;
+  height: 190vh;
 	background-color: #151616bd;
 }
 .mainout_sectionutkarsh
@@ -59,6 +59,9 @@ body::-webkit-scrollbar-thumb
 	display: block;
 	width: 180px;
 }
+/*============================progress bar design========================*/
+
+/*============================progress bar design========================*/
 .utkarshdivison_outarea
 {
 	margin: 10px 0px 0px 0px;
@@ -75,6 +78,7 @@ body::-webkit-scrollbar-thumb
   display: block;
   margin-bottom: 0px;
 }
+
 .utkarshteam_pointtextdesign
 {
   color: #ffcd00;
@@ -152,7 +156,7 @@ body::-webkit-scrollbar-thumb
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  height: 300px;
+  height: 330px;
 }
 .utkarsh_cardfstructure::before
 {
@@ -199,7 +203,7 @@ body::-webkit-scrollbar-thumb
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  height: 300px;
+  height: 330px;
 }
 .utkarsh_cardfstructure1::before
 {
@@ -234,7 +238,7 @@ body::-webkit-scrollbar-thumb
 {
   position: absolute;
   z-index: 10;
-  top: 53%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
@@ -308,7 +312,7 @@ body::-webkit-scrollbar-thumb
 {
   position: absolute;
   z-index: 10;
-  top: 53%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
@@ -401,15 +405,15 @@ body::-webkit-scrollbar-thumb
 }
 .utkarzx_outdetailarea
 {
-  margin: 130px 0px 0px 0px;
+  margin: 110px 0px 0px 0px;
 }
 .utkarzx_outdetailarea1
 {
-  margin: 142px 0px 0px 0px;
+  margin: 120px 0px 0px 0px;
 }
 .utkarzx_outdetailarea2
 {
-  margin: 150px 0px 0px 0px;
+  margin: 125px 0px 0px 0px;
 }
 .utkarshtop_profilenametextdesign
 {
@@ -505,3 +509,121 @@ body::-webkit-scrollbar-thumb
   letter-spacing: 1px;
   padding: 38px 0px 0px 0px;
 }
+/*==============================progress bar===============================*/
+.progress_sdcard 
+{
+  width: 250px;
+  height: 170px;
+  /*background-color: #08aeea;
+  background-image: linear-gradient(180deg, #08aeea 0%, #2af598 100%);*/
+  color: white;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress_sdcard1
+{
+  width: 250px;
+  height: 170px;
+  /*background-color: #08aeea;
+  background-image: linear-gradient(180deg, #08aeea 0%, #2af598 100%);*/
+  color: white;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#progress_container 
+{
+  width: 200px;
+  height: 130px;
+  margin: 0 auto;
+}
+#progress_container1 
+{
+  width: 200px;
+  height: 130px;
+  margin: 0 auto;
+}
+.progressbar__label 
+{
+  font-size: 40px;
+  left: 44% !important;
+  font-weight: 500;
+  transform: translate(-50%, 0) !important;
+  position: relative;
+}
+.progressbar__label::before
+{
+  position: absolute;
+  content: '%';
+  right: -35px;
+  bottom: 0px;
+}
+.progressbar__label1 
+{
+  font-size: 40px;
+  left: 44% !important;
+  font-weight: 500;
+  transform: translate(-50%, 0) !important;
+  position: relative;
+}
+.progressbar__label1::before
+{
+  position: absolute;
+  content: '%';
+  right: -35px;
+  bottom: 0px;
+}
+svg 
+{
+  height: 130px;
+  width: 200px;
+  fill: none;
+  stroke: #b0e952;
+  stroke-width: 15;
+  stroke-linecap: round;
+  filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.5));
+}
+
+/*==============================progress bar===============================*/
+
+/*==============================animated progress bar======================*/
+.ce_ixelgen_progress_bar {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.ce_ixelgen_progress_bar .progress_bar_item {
+  margin-bottom: 2rem;
+}
+.ce_ixelgen_progress_bar .item_label,
+.ce_ixelgen_progress_bar .item_value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px 0px 5px 0px;
+}
+.ce_ixelgen_progress_bar .item_value {
+  font-weight: 400;
+}
+.ce_ixelgen_progress_bar .item_bar {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 0px;
+}
+.ce_ixelgen_progress_bar .item_bar .progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  margin: 0;
+  background-color: #f50045;
+  border-radius: 0px;
+  transition: width 100ms ease;
+  height: 10px;
+}
+/*==============================animated progress bar======================*/
